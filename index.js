@@ -17,7 +17,7 @@ class ElectricCar extends Car {
     }
 
     getDescription() {
-        return `It's a ${this.make}, model ${this.model}, year ${this.year}, and the range is ${this.range}`
+        return `${super.getDescription()}, and the range is ${this.range}`
     }
 }
 
