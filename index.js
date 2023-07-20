@@ -20,3 +20,6 @@ class ElectricCar extends Car {
         return `It's a ${this.make}, model ${this.model}, year ${this.year}, and the range is ${this.range}`
     }
 }
+
+const Tesla = new ElectricCar("Tesla", "Model S", 2019, 300)
+console.log(Tesla.getDescription());
